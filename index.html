@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Themes Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+      .theme-container {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .theme {
+      width: 300px;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Light Theme */
+    .light {
+      background-color: #ffffff;
+      color: #333333;
+    }
+    .light h2 {
+      color: #0078d7;
+    }
+
+    /* Dark Theme */
+    .dark {
+      background-color: #222222;
+      color: #eeeeee;
+    }
+    .dark h2 {
+      color: #ff9800;
+    }
+
+    /* Nature Theme */
+    .nature {
+      background-color: #e9f5e1;
+      color: #2f4f2f;
+    }
+    .nature h2 {
+      color: #3b7a57;
+    }
+  </style>
+</head>
+<body>
+  <h1>Color Theme Showcase</h1>
+
+  <div class="theme-container">
+    <div class="theme light">
+      <h2>Light Theme</h2>
+      <p>This is a clean and simple light theme.</p>
+      <p>Background: White<br>Text: Dark Gray<br>Heading: Blue</p>
+    </div>
+
+    <div class="theme dark">
+      <h2>Dark Theme</h2>
+      <p>This is a cool and modern dark theme.</p>
+      <p>Background: Black<br>Text: Light Gray<br>Heading: Orange</p>
+    </div>
+
+    <div class="theme nature">
+      <h2>Nature Theme</h2>
+      <p>This is a calm and refreshing nature theme.</p>
+      <p>Background: Pale Green<br>Text: Forest Green<br>Heading: Deep Green</p>
+    </div>
+  </div>
+</body>
+</html>
